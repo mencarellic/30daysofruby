@@ -23,3 +23,9 @@ Using: https://www.railstutorial.org/book
     * Had to install Heroku CLI
     * Had to explicitly install `git-subtree` (`sudo dnf install git-subtree`) since `hello_app` is in a sub-directory of this repo
         * [This helped a bunch](https://medium.com/@shalandy/deploy-git-subdirectory-to-heroku-ea05e95fce1f)
+* Started `toy-app/`
+* Setting up multiple dynos for Heroku in a single repo:
+    * Rename dyno with `heroku rename`
+    * Change git config and remote name
+    * Push via subtree `git subtree push --prefix toy_app mencarellic-toy-app master`
+* Finished up to [2.1.1](https://www.railstutorial.org/book/toy_app#sec-modeling_demo_users)
