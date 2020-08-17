@@ -29,3 +29,13 @@ Using: https://www.railstutorial.org/book
     * Change git config and remote name
     * Push via subtree `git subtree push --prefix toy_app mencarellic-toy-app master`
 * Finished up to [2.1.1](https://www.railstutorial.org/book/toy_app#sec-modeling_demo_users)
+
+#### Day 3 - Aug 16
+
+* Ran first migration! 
+* Used `rails generate scaffold` to generate a basic users table
+* Looked at the Users model and users views
+* Added `microposts` table and ran migration
+* Added some form validation via app models
+* Edited `users` view to show microposts for each user
+* Finished up to [3.0.0](https://www.railstutorial.org/book/static_pages)
