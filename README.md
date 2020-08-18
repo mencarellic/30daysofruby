@@ -42,3 +42,11 @@ Using: https://www.railstutorial.org/book
 
 #### Day 4 - Aug 17
 
+* Created `sample_app`
+* Created a `StaticPages` controller to server (mostly) static content
+    * Home, About, Help, and Contact
+* Starting doing tests using `rails test`
+    * Test Driven Design is a method that you define the failing tests first and then write the code to make it pass
+    * Wrote a test to make sure that retrieving each of the static pages return and have the proper HTML title
+* Added dynamic content via ERB
+* Finished through [4.0.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/rails_flavored_ruby)
