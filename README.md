@@ -39,3 +39,6 @@ Using: https://www.railstutorial.org/book
 * Added some form validation via app models
 * Edited `users` view to show microposts for each user
 * Finished up to [3.0.0](https://www.railstutorial.org/book/static_pages)
+
+#### Day 4 - Aug 17
+
