@@ -50,3 +50,22 @@ Using: https://www.railstutorial.org/book
     * Wrote a test to make sure that retrieving each of the static pages return and have the proper HTML title
 * Added dynamic content via ERB
 * Finished through [4.0.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/rails_flavored_ruby)
+
+#### Day 5 - Aug 18
+
+* Learning Ruby flavored Rails (Basic conventions of Ruby)
+* `?` is a boolean check
+* `!!` forces a value to return a boolean
+    * `!!nil` returns false, but everything else returns true
+* `!` at the end of some methods mutates the variable it's called on:
+```ruby
+2.7.0 :154 > a = [1, 5, 10]
+2.7.0 :155 > a.shuffle!
+ => [5, 1, 10] 
+2.7.0 :156 > a
+ => [5, 1, 10] 
+```
+* Ranges: `1..5` or `('a'..'z')`
+* Learned about blocks
+    * `('a'..'z').to_a.map { |char| char.upcase }` and `('a'..'z').to_a.map(&:upcase)` are the same!
+* Got through [4.3.3](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/rails_flavored_ruby/other_data_structures/hashes_and_symbols#sec-hashes_and_symbols)
