@@ -53,7 +53,7 @@ Using: https://www.railstutorial.org/book
 
 #### Day 5 - Aug 18
 
-* Learning Ruby flavored Rails (Basic conventions of Ruby)
+* Learning Rails flavored Ruby (Basic conventions of Ruby)
 * `?` is a boolean check
 * `!!` forces a value to return a boolean
     * `!!nil` returns false, but everything else returns true
@@ -69,3 +69,23 @@ Using: https://www.railstutorial.org/book
 * Learned about blocks
     * `('a'..'z').to_a.map { |char| char.upcase }` and `('a'..'z').to_a.map(&:upcase)` are the same!
 * Got through [4.3.3](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/rails_flavored_ruby/other_data_structures/hashes_and_symbols#sec-hashes_and_symbols)
+
+#### Day 6 - Aug 19
+
+* Rails flavored Ruby, part 2
+* Hashes first: `user = {}` and `user["first"] = "Carlo"`
+* Symbols
+    * More common than strings for hash keys
+    * `user = { :first => "Carlo" }`
+    * Can also use: `user = { first: "carlo" }`
+* Ruby-isms:
+    * `Parentheses on function calls are optional`
+    * `Curly braces on final hash arguments are optional`
+* Can use a named constructor:
+    * `arr = Array.new([1, 2, 3])`
+    * `hash = Hash.new(0)`
+        * This sets 0 as a default value for nonexistent keys!
+* `everything in Ruby is an object`
+* `initialize` is a special ruby method that's called on `new`
+* attribute accessors create getter and setter methods that allow the gets/sets of instance variables
+* Finished through [5.0.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/filling_in_the_layout)
