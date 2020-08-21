@@ -89,3 +89,10 @@ Using: https://www.railstutorial.org/book
 * `initialize` is a special ruby method that's called on `new`
 * attribute accessors create getter and setter methods that allow the gets/sets of instance variables
 * Finished through [5.0.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/filling_in_the_layout)
+
+#### Day 7 - Aug 20
+
+* Used the `link_to` helper to create links. 
+* Learned about partials. Super easy way to piece views together.
+* Finished through [5.2](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/filling_in_the_layout/sass_and_the_asset_pipeline#sec-sass_and_the_asset_pipeline)
+ 
