@@ -68,7 +68,7 @@ Using: https://www.railstutorial.org/book
 * Ranges: `1..5` or `('a'..'z')`
 * Learned about blocks
     * `('a'..'z').to_a.map { |char| char.upcase }` and `('a'..'z').to_a.map(&:upcase)` are the same!
-* Got through [4.3.3](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/rails_flavored_ruby/other_data_structures/hashes_and_symbols#sec-hashes_and_symbols)
+* Got through [4.3.3](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/rails_flavsored_ruby/other_data_structures/hashes_and_symbols#sec-hashes_and_symbols)
 
 #### Day 6 - Aug 19
 
@@ -96,3 +96,16 @@ Using: https://www.railstutorial.org/book
 * Learned about partials. Super easy way to piece views together.
 * Finished through [5.2](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/filling_in_the_layout/sass_and_the_asset_pipeline#sec-sass_and_the_asset_pipeline)
  
+#### Day 8 - Aug 21
+
+* Asset pipeline overview uses three standard directories
+    * `app/assets`
+    * `lib/assets`
+    * `vender/assets`
+* Can use manifest files to tell Rails how to combine CSS and JS into single files
+* Sass nesting and variables can help make CSS more DRY and easier to read.
+* Using named routes can change from `get 'static_pages/help'` to `get '/help', to: 'static_pages#help'`
+    * Lets you have clean URLs and it is easier to read
+    * Drop these into the partials as the 2nd argument of the link_to functions
+* Creating integration tests for the layout
+    * Ideally keep these pretty simple since layouts can change, but this is really cool to make sure content that you want is always on the page.
