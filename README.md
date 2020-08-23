@@ -109,3 +109,19 @@ Using: https://www.railstutorial.org/book
     * Drop these into the partials as the 2nd argument of the link_to functions
 * Creating integration tests for the layout
     * Ideally keep these pretty simple since layouts can change, but this is really cool to make sure content that you want is always on the page.
+* Got through [5.4](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/filling_in_the_layout/user_signup#sec-user_signup)
+
+#### Day 9 - Aug 22
+
+* Created users controller, filled in the users_path route, fixed integration and controller tests.
+* Created a users models consisting of a name(string) and email(string). 
+    * This is added to the DB with a migration.
+    * The `rails generate` command also created a special field called 'timestamps' which creates a `created_at` and `updated_at` field
+* `rails console --sandbox` - Super userful. Commands rolled back at end of session
+* Create models with `User.new` and can save to a variable with `user = User.new`
+* `find`, `find_by(param: "val")`, and `find_by_name("val")` are ways to search
+* Can update records a few ways:
+    * `user.name = "Carlo"`
+    * `user.update(name: "Carlo" ....)` - Need to specify all attributes here
+    * `user.update_attributes(:name, "Carlo")`
+* Got through [6.2](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/modeling_users/user_validations#sec-user_validations)
