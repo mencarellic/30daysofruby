@@ -125,3 +125,15 @@ Using: https://www.railstutorial.org/book
     * `user.update(name: "Carlo" ....)` - Need to specify all attributes here
     * `user.update_attributes(:name, "Carlo")`
 * Got through [6.2](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/modeling_users/user_validations#sec-user_validations)
+
+#### Day 10 - Aug 23
+
+* User validation
+    * Use the `validates` method in the model to make sure the data looks like it's supposed to
+    * `presence`, `length`, `format`, `uniqueness` are some of the options that can be used
+* Fixtures: Sample data for database
+* `has_secure_password` method
+    * Ability to save `password_digest` attribute to DB
+    * authenticate method that returns the user when the password is correct (and false otherwise)
+    * Added via a migration to add the `password_digest` field (string)
+* Got through []()
