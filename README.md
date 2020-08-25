@@ -136,4 +136,14 @@ Using: https://www.railstutorial.org/book
     * Ability to save `password_digest` attribute to DB
     * authenticate method that returns the user when the password is correct (and false otherwise)
     * Added via a migration to add the `password_digest` field (string)
-* Got through []()
+* Got through [7.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/sign_up)
+
+#### Day 11 - Aug 24
+
+* Three types of environments in Rails: `production`, `test`, `development`
+* Mixins can do bulk includes in SCSS
+* Added a `Users` resource to `routes.rb`
+* `debugger` is useful to drop extra details into the rails server session
+* Added a gravatar helper that takes a MD5 digest of a lowercase email address and retrieves the gravatar
+* Got through [7.2](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/sign_up/signup_form#sec-signup_form)
+
