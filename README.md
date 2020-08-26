@@ -147,3 +147,11 @@ Using: https://www.railstutorial.org/book
 * Added a gravatar helper that takes a MD5 digest of a lowercase email address and retrieves the gravatar
 * Got through [7.2](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/sign_up/signup_form#sec-signup_form)
 
+#### Day 12 - Aug 25
+
+* Used the `form_with` method to create a new user
+* `User.new` was expecting a params hash, however the base one in Rails passes in everything including potentially malicious attributes that could lead to breaches. To combat this, the practice is to specify what you're expecting and what is permitted
+* Did integration testing using `assert_no_difference` to get the pre and post form submission value to ensure bad values don't result in a successful form submission
+* `redirect_to` is a way to do redirects in app
+* `flash` can be used to show a message. In this case after a successful signup
+* Got through [8.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/basic_login)
