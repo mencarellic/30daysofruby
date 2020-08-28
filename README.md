@@ -159,7 +159,16 @@ Using: https://www.railstutorial.org/book
 #### Day 13 - Aug 26
 
 * Create sessions controller
-    * Specified specific REST actions for the routes: `GET`, `POST`, `DELETE`
+    * Specified specific REST actions for the routes: `GET`, `POST`, `DELETE`   
 * Added 3 helpers to allow logging in, checking if a user is logged in, and what the current user id is (if it exists)
 * Did some mobile styling by adding JQuery and Bootstrap via YARN.
 * Got through [8.2.4](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/basic_login/logging_in/testing_layout_changes#sec-testing_layout_changes)
+
+#### Day 14 - Aug 27
+
+* Added first fixture, which is a way to preload the test db
+    * Needed to be able to define a `password_digest` in the fixture, so this involved essentially copying the `password_digest` method from `has_secure_password`
+* Added a test that logs in, follows the redirect, and checks for the presence (or absence) or specific links
+* Made it so newly created users are logged in by added `reset_session` and `log_in @user` to `Users#create`
+* Add a logout function by passing `reset_session` and then setting `@current_user = nil` in the sessions_controller.
+* Got through [9.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/advanced_login)
