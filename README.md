@@ -172,3 +172,10 @@ Using: https://www.railstutorial.org/book
 * Made it so newly created users are logged in by added `reset_session` and `log_in @user` to `Users#create`
 * Add a logout function by passing `reset_session` and then setting `@current_user = nil` in the sessions_controller.
 * Got through [9.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/advanced_login)
+
+#### Day 15 - Aug 28
+
+* Craeted a migration to add a `remember_digest` field
+* Using attr_accessors, added the token generated to the user object
+* Created the cookie on login and recognized the cookie and logged user in if found and validated
+* Got through [9.1.3](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/advanced_login/remember_me/forgetting_users#sec-forgetting_users)
