@@ -179,3 +179,11 @@ Using: https://www.railstutorial.org/book
 * Using attr_accessors, added the token generated to the user object
 * Created the cookie on login and recognized the cookie and logged user in if found and validated
 * Got through [9.1.3](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/advanced_login/remember_me/forgetting_users#sec-forgetting_users)
+
+#### Day 16 - Aug 29
+
+* Created a checkbox for remembering a user's session
+    * This creates a value in the session parameters for `remember_me`
+* Adding logic in the login process to check for the value of it and setting the cookie appropriately
+* Learned how to find untested code blocks by adding a `raise`. If it's untested, the tests will still pass.
+* Got through [10.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/updating_and_deleting_users)
