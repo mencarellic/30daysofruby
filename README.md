@@ -187,3 +187,13 @@ Using: https://www.railstutorial.org/book
 * Adding logic in the login process to check for the value of it and setting the cookie appropriately
 * Learned how to find untested code blocks by adding a `raise`. If it's untested, the tests will still pass.
 * Got through [10.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/updating_and_deleting_users)
+
+#### Day 17 - Aug 30
+
+* Created the edit page
+    * Added the link to the menu
+* Created unsuccessful test
+* Created successful test (using TDD)
+* Wrote tests and got them passing to protect user edit pages from logged in and non-logged in users
+* Added friendly forwards when logging in so the user should be forwarded to the URL they were trying to get to
+* Got through [10.3](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/updating_and_deleting_users/showing_all_users#sec-showing_all_users)
