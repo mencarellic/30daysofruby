@@ -197,3 +197,11 @@ Using: https://www.railstutorial.org/book
 * Wrote tests and got them passing to protect user edit pages from logged in and non-logged in users
 * Added friendly forwards when logging in so the user should be forwarded to the URL they were trying to get to
 * Got through [10.3](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/updating_and_deleting_users/showing_all_users#sec-showing_all_users)
+
+#### Day 18 - Aug 31
+
+* Created a user index view which shows all users when logged in
+* Used the Faker gem to fake user account creation with `db/seeds.rb`
+* Added the `will_paginate` gem to have multiple pages on the user index view
+* Added a boolean to determine if the user is an admin
+* Got through [11.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/account_activation)

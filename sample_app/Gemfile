@@ -11,6 +11,11 @@ gem 'bootstrap-sass', '3.4.1'
 gem 'puma', '~> 4.1'
 # For password_digest functionality
 gem 'bcrypt', '3.1.13'
+# For faking user data
+gem 'faker'
+# Pagination
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
