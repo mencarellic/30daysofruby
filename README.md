@@ -205,3 +205,11 @@ Using: https://www.railstutorial.org/book
 * Added the `will_paginate` gem to have multiple pages on the user index view
 * Added a boolean to determine if the user is an admin
 * Got through [11.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/account_activation)
+
+#### Day 19 - Sep 1
+
+* Created a `before_create` and `before_save` call to assign an activation token to a new user.
+* Configured Dev to work with email previews used in ActionMailer
+* Extracted the `authenticated?` method to be more generic. Allowing it to be used with `remember_digest` and `activation_digest`
+* Refactored to add the `user.activate` and `user.send_activation_email` methods
+* Got through [12.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/password_reset)
