@@ -213,3 +213,11 @@ Using: https://www.railstutorial.org/book
 * Extracted the `authenticated?` method to be more generic. Allowing it to be used with `remember_digest` and `activation_digest`
 * Refactored to add the `user.activate` and `user.send_activation_email` methods
 * Got through [12.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/password_reset)
+
+#### Day 20 - Sep 2
+
+* Created a new controller for password resets and a migration to add a reset digest and a date/time for when it was sent
+* Setup the password reset form view
+* Created logic to check if the email being submitted for reset is valid
+* Got through [12.2](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/password_reset/password_reset_emails#sec-password_reset_emails)
+
