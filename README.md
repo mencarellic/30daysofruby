@@ -221,3 +221,9 @@ Using: https://www.railstutorial.org/book
 * Created logic to check if the email being submitted for reset is valid
 * Got through [12.2](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/password_reset/password_reset_emails#sec-password_reset_emails)
 
+#### Day 21 - Sep 3
+
+* Created a several methods in the password_resets_controller to update the password after it is reset.
+    * Also captured some failure cases such as an empty form and expired password
+* Integration tests for the password_reset
+* Got through [13.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/user_microposts#cha-user_microposts)
