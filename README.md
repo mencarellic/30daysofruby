@@ -227,3 +227,14 @@ Using: https://www.railstutorial.org/book
     * Also captured some failure cases such as an empty form and expired password
 * Integration tests for the password_reset
 * Got through [13.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/user_microposts#cha-user_microposts)
+
+#### Sep 4 - Sep 13
+
+* Took short break during a vacation
+
+#### Day 22 - Sep 14
+
+* Created a new model: `microposts`
+* Created a one -> has many relationship between users and microposts
+* Set a default scope for the microposts to order them from most recent to oldest
+* Got through [13.2](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/user_microposts/showing_microposts#sec-showing_microposts)
