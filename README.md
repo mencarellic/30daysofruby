@@ -238,3 +238,12 @@ Using: https://www.railstutorial.org/book
 * Created a one -> has many relationship between users and microposts
 * Set a default scope for the microposts to order them from most recent to oldest
 * Got through [13.2](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/user_microposts/showing_microposts#sec-showing_microposts)
+
+#### Day 23 - Sep 15
+
+* Created a new controller for microposts. Though only used it for the `show` view
+* Added micropost seed data
+* Added user profile test which uses similar loop as the db seed.
+  * See the use of `assert_select` and learn what `response.body` is
+* Got through [13.3](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/user_microposts/manipulating_microposts#sec-manipulating_microposts)
+
