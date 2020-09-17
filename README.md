@@ -247,3 +247,10 @@ Using: https://www.railstutorial.org/book
   * See the use of `assert_select` and learn what `response.body` is
 * Got through [13.3](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/user_microposts/manipulating_microposts#sec-manipulating_microposts)
 
+#### Day 24 - Sep 16
+
+* Edited the homepage view to be able to add microposts if logged in
+* Since `microposts` and `users` both need the `is_logged_in` method, this is moved from the `users controller` to the `application controller`
+* Refactored the `error_messages` partial to work with both `users` and `microposts` since `users` had been hardcoded in previously
+* Instrumented the delete capability for users.
+* Got through [13.4.1](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/user_microposts/micropost_images/basic_image_upload#sec-basic_image_upload)
