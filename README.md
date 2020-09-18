@@ -254,3 +254,11 @@ Using: https://www.railstutorial.org/book
 * Refactored the `error_messages` partial to work with both `users` and `microposts` since `users` had been hardcoded in previously
 * Instrumented the delete capability for users.
 * Got through [13.4.1](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/user_microposts/micropost_images/basic_image_upload#sec-basic_image_upload)
+
+#### Day 25 - Sep 17
+
+* Used `rails active_storage:install` to create a DB migration to add active storage to the app
+* Added content type and size validations both server and client side
+* Using the ImageMagick/GraphicMagick tool, automatically resized the image on the feed
+* Got through [14.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/following_users)
+* 
