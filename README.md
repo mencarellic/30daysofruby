@@ -261,4 +261,9 @@ Using: https://www.railstutorial.org/book
 * Added content type and size validations both server and client side
 * Using the ImageMagick/GraphicMagick tool, automatically resized the image on the feed
 * Got through [14.0](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/following_users)
-* 
+
+#### Day 26 - Sep 18
+
+* Created a migration to have a Relationships entry
+* Added a more complex `belongs_to` for followers and followed users.
+* Got through [14.1.4](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/following_users/the_relationship_model/following#sec-following)
