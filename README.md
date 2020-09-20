@@ -267,3 +267,10 @@ Using: https://www.railstutorial.org/book
 * Created a migration to have a Relationships entry
 * Added a more complex `belongs_to` for followers and followed users.
 * Got through [14.1.4](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/following_users/the_relationship_model/following#sec-following)
+
+#### Day 27 - Sep 19
+
+* Added the methods to follow, unfollow, and if a user is being followed by another user
+* Learned about how Rails can singularize an attribute to fetch it from the DB.
+* Added tests for the follow, following, and unfollow functionality
+* Got through [14.2.1](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/following_users/a_web_interface_for_following_and_followers#sec-a_web_interface_for_following_and_followers)
