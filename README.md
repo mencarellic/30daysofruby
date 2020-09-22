@@ -283,6 +283,5 @@ Using: https://www.railstutorial.org/book
 
 #### Day 29 - Sep 21
 
-* 
-* 
-* 
+* Using SQL and subselects, did a reimplementation of the feed to include posts from followed users and self.
+* Finished the rest of the tutorial!
