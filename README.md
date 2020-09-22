@@ -274,3 +274,15 @@ Using: https://www.railstutorial.org/book
 * Learned about how Rails can singularize an attribute to fetch it from the DB.
 * Added tests for the follow, following, and unfollow functionality
 * Got through [14.2.1](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/following_users/a_web_interface_for_following_and_followers#sec-a_web_interface_for_following_and_followers)
+
+#### Day 28 - Sep 20
+
+* Added seed data for follower/following functionality
+* Implemented the follow/unfollow buttons, first the normal way and then with AJAX/XHR
+* Got through [14.3.1](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/following_users/the_status_feed#sec-the_status_feed)
+
+#### Day 29 - Sep 21
+
+* 
+* 
+* 
