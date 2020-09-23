@@ -285,3 +285,7 @@ Using: https://www.railstutorial.org/book
 
 * Using SQL and subselects, did a reimplementation of the feed to include posts from followed users and self.
 * Finished the rest of the tutorial!
+
+#### Day 30 - Sep 22
+
+* I finished up with the tutorial yesterday, so today I decided to do an investigative dive into a Rails app that the company I work for uses. It used to be an intimidating mass of hundreds of thousands of lines, and while I still don't understand 100% of it (cough liquid-rails cough), I understand a whole lot more.
